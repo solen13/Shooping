@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,152 +9,180 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./silder.css">
     <link rel="stylesheet" href="./headerbtn.css">
+    <link rel="stylesheet" href="./login.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    
+
     <div class="contener">
 
         <div id="loging" class="loging ">
+
             <div class="login-content">
-                <div class="cikis">x</div>
+                <p class="cikis">X</p>
+                <div class="container right-panel-active">
+                    <!-- Sign Up -->
+                    <div class="container__form container--signup">
+                        <form action="#" class="form" id="form1">
+                            <h2 class="form__title">Sign Up</h2>
+                            <input type="text" placeholder="User" class="input" id="user" />
+                            <input type="email" placeholder="Email" class="input" id="email" />
+                            <input type="password" placeholder="Password" class="input" id="password" />
+                            <button class="btn" id="SingUpBTN">Sign Up</button>
+                        </form>
+                    </div>
 
-                <h2>Giriş Yap</h2>
+                    <!-- Sign In -->
+                    <div class="container__form container--signin">
+                        <form action="#" class="form" id="form2">
+                            <h2 class="form__title">Sign In</h2>
+                            <input type="email" placeholder="Email" class="input" id="singInEmail" />
+                            <input type="password" placeholder="Password" class="input" id="singInPassword" />
+                            <a href="#" class="link">Forgot your password?</a>
+                            <button class="btn" id="SingInBTN">Sign In</button>
+                        </form>
+                    </div>
 
-                <label for="">Email gir</label>
-                <input type="email" name="" id="">
-                <label for=""> Şifreni gir</label>
-                <input type="password" name="" id="">
+                    <!-- Overlay -->
+                    <div class="container__overlay">
+                        <div class="overlay">
+                            <div class="overlay__panel overlay--left">
+                                <button class="btn" id="signIn">Sign In</button>
+                            </div>
+                            <div class="overlay__panel overlay--right">
+                                <button class="btn" id="signUp">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
-                </div>
-        
+
+
+        </div>
+
         <div class="header">
 
             <div class="logo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEQmzx6PIRLBbuuHq9saBJEWMlrvqvtrTzOg&usqp=CAU" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEQmzx6PIRLBbuuHq9saBJEWMlrvqvtrTzOg&usqp=CAU"
+                    alt="">
             </div>
             <div class="searchbar">
-                <input type="search"  id="search" placeholder="arayın.."> 
+                <input type="search" id="search" placeholder="arayın..">
             </div>
             <div class="sing">
-                <div class="singing">Kayıt ol / Giriş yap</div>
-                </div>
-                
-
-            <div class="sepet" id="sepetin"> <div class="sepet-sayi">0</div>  </div>
-
-        </div>
-
-
-
-                <div id="sepetins" class="sepetin ">
-                    <div class="sepet-content">
-                        <h1 class="sepet-1-baslik">Sepetin</h1>
-
-
-
-                        <div class="sepet-banner">
-                            <div class="list-item">
-                            
-                    
-                              
-                           
-                            </div>
-                        <div class="totol">
-                            <div class="toplam1"> <span class="sepet-toplam"></span>  <span>TL</span></div> 
-                            <button class="btn-sepet-onay">Sepeti Onayla</button>
-                        </div>
-
-                    </div>
-                    
-
-                </div>
-                </div>
-
-
-       
-            <ul class="header-btn">
-                <li>Moda</li>
-                <li>Aksesuar</li>
-                <li>Kadın Giyim</li>
-                <li>Erkek Giyim</li>
-                <li> Çocuk Giyim</li>
-                <li> Tekneoloji</li>
-                <li>Kitap</li>
-            </ul>
-
-  
-
-                <div class="silder">
-                    <div class="left-btn arrow"><img src="./lefticon.png" alt=""></div>
-
-                     <div class="image-silder-contener">
-                            <div class="silder-banner">
-                                <div class="left-silde-content">
-                                    <img  class="silder-image " src="https://www.dipmoda.com/UserFiles/Product/list/Yesil-yeni-sezon-cepli-salvar-pantolon-1-.jpg" alt="">
-                                </div>
-                                
-                                <div class="Rhait-silde-content">
-                                    <h1 class="silder-titile">Yeni ürün yeni sezon</h1>  
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ea ab nihil, iure ducimus ipsam reiciendis, nulla officia minima ullam. Eos </p>    
-                                <a href="#">Detay göster</a>
-                                <a href="#"> yeni sezon</a>
-                                </div>
-                                
-                        </div>
-                           
-                        <div class="radio-control">
-
-                              
-                        
-                           </div>
-                        </div>
-                 <div class="right-btn arrow"> <img src="./rihaticon.png" alt=""></div>
-
-             </div>
-
-
-
-
-
-
-
-
-
-
-            <div class="banner">
-                <div class="banner-catogry-titile">
-                    <h1 class="banner-catogry-titile-in">Kadın giyim</h1>
-                    
-             </div>
-
-
-
-
-
-             <div class="card-contener">
-          
-            
-       
-
-
-             </div>
-             <h1 class="banner-catogry-titile-in">Erkek giyim</h1>
-             <div class="card-contener" id="card-contener2">
-          
-            
-       
+                <div class="singing" id="singing">Kayıt ol / Giriş yap</div>
+                <div id="CikisYap">Çıkış yap</div>
+                <div id="userDetay">Kullanıcı detayları</div>
+                <div id="userDetaycontenet" class="userDetaycontenet">Kullanıcı detayları</div>
 
 
             </div>
-         
-         
+
+
+            <div class="sepet" id="sepetin">
+                <div class="sepet-sayi">0</div>
+            </div>
+
+        </div>
+
+
+
+        <div id="sepetins" class="sepetin ">
+            <div class="sepet-content">
+                <h1 class="sepet-1-baslik">Sepetin</h1>
+                <div class="sepet-banner">
+                    <div class="list-item"></div>
+
+                    <div class="totol">
+                        <div class="toplam1"> <span class="sepet-toplam"></span> <span>TL</span></div>
+                        <button class="btn-sepet-onay">Sepeti Onayla</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <ul class="header-btn">
+            <li>Moda</li>
+            <li>Aksesuar</li>
+            <li>Kadın Giyim</li>
+            <li>Erkek Giyim</li>
+            <li> Çocuk Giyim</li>
+            <li> Tekneoloji</li>
+            <li>Kitap</li>
+        </ul>
+
+
+
+        <div class="silder">
+            <div class="left-btn arrow"><img src="./lefticon.png" alt=""></div>
+
+            <div class="image-silder-contener">
+                <div class="silder-banner">
+                    <div class="left-silde-content">
+                        <img class="silder-image "
+                            src="https://www.dipmoda.com/UserFiles/Product/list/Yesil-yeni-sezon-cepli-salvar-pantolon-1-.jpg"
+                            alt="">
+                    </div>
+
+                    <div class="Rhait-silde-content">
+                        <h1 class="silder-titile">Yeni ürün yeni sezon</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ea ab nihil, iure
+                            ducimus ipsam reiciendis, nulla officia minima ullam. Eos </p>
+                        <a href="#">Detay göster</a>
+                        <a href="#"> yeni sezon</a>
+                    </div>
+
+                </div>
+
+                <div class="radio-control">
+
+
+
+                </div>
+            </div>
+            <div class="right-btn arrow"> <img src="./rihaticon.png" alt=""></div>
+
+        </div>
+
+
+
+        <div class="banner">
+            <div class="banner-catogry-titile">
+                <h1 class="banner-catogry-titile-in">Kadın giyim</h1>
+
+            </div>
+
+            <div class="card-contener">
+
+            </div>
+            <h1 class="banner-catogry-titile-in">Erkek giyim</h1>
+            <div class="card-contener" id="card-contener2">
+
+
+
+
+
+            </div>
+
+
 
 
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+
+
+            
+
+        </div>
     </div>
     </div>
 
@@ -163,5 +192,156 @@
 
     <script src="./app.js"></script>
     <script src="./script.js"></script>
+
+    <script type="module">
+        let cikisyap = document.querySelector('#CikisYap')
+        let singBtn = document.querySelector('#singing')
+        let userDetay = document.querySelector('#userDetay')
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+        import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDmYfG7M8u2-n1vQl99As5e94nejZldprU",
+            authDomain: "rehberapp-49386.firebaseapp.com",
+            databaseURL: "https://rehberapp-49386-default-rtdb.firebaseio.com",
+            projectId: "rehberapp-49386",
+            storageBucket: "rehberapp-49386.appspot.com",
+            messagingSenderId: "287917892519",
+            appId: "1:287917892519:web:086d141f45efc21c3dcc82"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+
+
+
+        const auth = getAuth();
+
+        auth.onAuthStateChanged(k => {
+            if (k) {
+                console.log('giris başarılı')
+
+
+                singBtn.style.display = 'none'
+                cikisyap.style.display = 'block'
+                userDetay.style.display = 'block'
+
+
+                console.log(k.email)
+                userDetays(k)
+
+            }
+            else {
+                console.log('cıkış basarılı')
+                cikisyap.style.display = 'none'
+                singBtn.style.display = 'block'
+                userDetay.style.display = 'none'
+              
+
+
+            }
+        })
+        var userDetaycontenet = document.querySelector('#userDetaycontenet')
+        function userDetays(k) {
+            userDetay.addEventListener('click', e => {
+
+                userDetaycontenet.classList.toggle('userDetaycontenet')
+
+                userDetaycontenet.textContent = k.email
+
+            })
+
+
+        }
+
+
+        document.getElementById('SingUpBTN').addEventListener('click', e => {
+
+            var email = document.getElementById('email').value
+            var users = document.getElementById('user').value
+            var password = document.getElementById('password').value
+
+
+            console.log('log up')
+            createUserWithEmailAndPassword(auth, email, password)
+                .then((userCredential) => {
+                    // Signed in 
+                    const user = userCredential.user;
+                    // ...
+                    
+
+
+
+
+                })
+                .catch((error) => {
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
+                    // ..
+                });
+        })
+
+
+
+        document.getElementById('SingInBTN').addEventListener('click', e => {
+
+            var email = document.getElementById('singInEmail').value
+            var password = document.getElementById('singInPassword').value
+
+            signInWithEmailAndPassword(auth, email, password)
+                .then((userCredential) => {
+                    // Signed in 
+                    const user = userCredential.user;
+                    // ...
+                    alert('giriş yaplıdı')
+
+                })
+                .catch((error) => {
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
+                    alert(message)
+                });
+
+
+
+        })
+
+        document.getElementById('CikisYap').addEventListener('click', e => {
+            signOut(auth).then(() => {
+                // Sign-out successful.
+                alert('çıkış yapıldı')
+
+                CikisYap.style.display = 'none'
+                singing.style.display = 'block'
+
+            }).catch((error) => {
+                // An error happened.
+                alert(error)
+
+            });
+
+        })
+
+        import { getStorage, ref, uploadBytes } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-storage.js";
+
+        const storage = getStorage();
+
+      
+      
+
+
+
+
+
+
+
+
+
+    </script>
 </body>
+
 </html>
